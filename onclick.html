@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <div class="form">
+      <h1> Calculator v1</h1>
+      <form name="calcForm">
+        <label for="num1">Enter: Number 1</label>
+        <input type="text" id="num1" name="num1" /> </br>
+        <label for="num2">Enter: Number 2</label>
+        <input type="text" id="num2" name="num2" /> </br> 
+        <label for="result">Result:</label>
+        <input type="text" id="result" name="result"/> </br>
+               <!-- the "this" keyword is pointing to the current object the event is being raised to -->
+        <input type="button" value="Add" onclick="calculate(this)"/> 
+        <input type="button" value="Subtract" onclick="calculate(this)"/> 
+        <input type="button" value="Multiply"onclick="calculate(this)"/> 
+        <input type="button" value="Divide"onclick="calculate(this)"/> 
+        <input type="button" value="Modulus"onclick="calculate(this)"/> 
+        <p>Need more math help? <a href="http://www.math.com/students/practice.html" target="_blank" rel="noreferrer noopener">Math Help</p>
+      </form>
+    </div>
+  </body>
+</html>
