@@ -1,9 +1,10 @@
 body {
-  background-image: url(images.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
 }
 h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: Chalkduster, fantasy;
   color: rgba(3, 34, 159, 0.68);
 }
