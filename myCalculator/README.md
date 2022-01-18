@@ -1,2 +1,2 @@
 # mycalculatorv1
-Simple Calculator using HTML, CSS, JS
+Simple Calculator App using HTML, CSS, JS
